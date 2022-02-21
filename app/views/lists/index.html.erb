@@ -3,4 +3,9 @@
 <li><%= link_to list.name, list_path(list) %></li>
 <% end %>
 
+<%= cl_image_tag("s3n9em6fcitgh0bwxzro", width: 400, height: 300, crop: :fill) %>
+
+<!-- for face detection -->
+<%= cl_image_tag("htmnwzn8plksni5nef5x", width: 150, height: 150, crop: :thumb, gravity: :face) %>
+
 <%= link_to "add new list", new_list_path %>
